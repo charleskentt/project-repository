@@ -1,0 +1,110 @@
+html {
+    background-color: #563838;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 87%;
+}
+
+.fix {
+    clear: both;
+    
+    }
+p {
+    color: aliceblue;
+}
+
+.container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background-repeat: repeat-x;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: wheat;
+    text-align: left;
+    font-size: 200%;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header p {
+    color: white;
+}
+
+h2 {
+    color: azure;
+    font-size: 100%;
+}
+
+aside {
+    color: #A37C27;
+}
+
+header p span {
+    color: #A37C27;
+}
+
+/* Site Navigation*/
+
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+margin: 0;
+padding: 0;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #563838;
+    padding: 10px 20px;
+    border: 3px solid #563838;
+    display: block;
+}
+
+.site-nav a:hover {
+    background-color: darkgrey;
+}
+/* End Site Navigation*/
+
+/* Image Banner */
+img {
+    max-width: 80%;
+    height: auto;
+    }
+    
+    .image-banner {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    margin: bottom 30px;
+    padding-bottom: 30px;
+    }
+    
+    .image-banner img {
+        display: block;
+    }
+/* End Image Banner*/
+ul {
+    font-size: 75%;
+}
+
+
